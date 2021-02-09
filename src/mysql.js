@@ -4,11 +4,11 @@
 //react class/function组件 hook钩子 生命周期
 
 var mysql  = require('mysql');  
-let express = require('express');
-let app = express();
-let bodyParser = require('body-parser');
+var express = require('express');
+var app = express();
+var bodyParser = require('body-parser');
 
-app.use(bodyParser.json())                          //json化
+app.use(bodyParser.json())                          // json化
 app.use(bodyParser.urlencoded({ extended: false })) // 创建 application/x-www-form-urlencoded 编码解析
  
 
@@ -36,7 +36,7 @@ app.all('*', function (req, res, next) {
   });
 
 //第3步：node.js暴露服务,
-app.post('/login',function(req,res){
+app.get('/login',function(req,res){
     let sql = 'SELECT * from a1';
     connection.query(sql,function(request,response){
         res.json(response)
