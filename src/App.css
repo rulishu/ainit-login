@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.parent {
+  /* border: 1px solid red; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #f0f0f0;
+}
+.son {
+  border: 1px solid white;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 200px auto;
+  background: white;
+}
+.grandson {
+  /* border: 1px solid red; */
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.login {
+  font-size: 25px;
+}
+.username input {
+  line-height: 35px;
+  width: 360px;
+  margin-top: 50px;
+}
+.password input {
+  margin-top: 30px;
+  line-height: 35px;
+  width: 360px;
+}
+.sub {
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 50px;
+  height: 30px;
+}
+.exit {
+  margin-left: 180px;
+  width: 50px;
+  height: 30px;
+}
