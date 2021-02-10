@@ -50,3 +50,12 @@ li {
   width: 50px;
   height: 30px;
 }
+table {
+  border: 1px solid red;
+}
+table th {
+  /* border: 1px solid red; */
+}
+table td {
+  /* border: 1px solid red; */
+}
